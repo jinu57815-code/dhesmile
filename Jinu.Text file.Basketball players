@@ -1,0 +1,34 @@
+# Create and write to a text file about basketball players
+
+file_name = "basketball_players.txt"
+
+content = """Famous Basketball Players
+
+1. Michael Jordan
+- Considered one of the greatest basketball players of all time.
+- Won 6 NBA championships with the Chicago Bulls.
+
+2. LeBron James
+- Known for his versatility and leadership.
+- Multiple-time NBA champion and MVP.
+
+3. Kobe Bryant
+- Legendary player for the Los Angeles Lakers.
+- Won 5 NBA championships.
+
+4. Stephen Curry
+- Famous for his exceptional three-point shooting.
+- Led the Golden State Warriors to multiple championships.
+
+5. Shaquille O'Neal
+- Dominant center known for his strength and scoring ability.
+- Won 4 NBA championships.
+
+These players have made a significant impact on the game of basketball.
+"""
+
+# Create and write content to the file
+with open(file_name, "w") as file:
+    file.write(content)
+
+print(f"{file_name} has been created successfully!")
