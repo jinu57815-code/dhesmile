@@ -1,0 +1,26 @@
+# Create and write to a text file about sports
+
+file_name = "sports.txt"
+
+content = """Sports
+
+Sports are physical or mental activities that involve skill, competition, and fun. They help improve fitness, teamwork, and discipline.
+
+Popular Sports:
+
+1. Football (Soccer) - A team sport played with a round ball aiming to score goals.
+2. Basketball - A team sport where players score by shooting the ball into a hoop.
+3. Cricket - A bat-and-ball game played between two teams, popular in India and other countries.
+4. Tennis - A racket sport played individually or in doubles on a court.
+5. Swimming - An individual sport focusing on speed and technique in water.
+6. Athletics - Includes running, jumping, and throwing events.
+7. Badminton - A racket sport played with a shuttlecock over a net.
+
+Sports bring people together, teach fair play, and provide entertainment worldwide.
+"""
+
+# Create and write content to the file
+with open(file_name, "w") as file:
+    file.write(content)
+
+print(f"{file_name} has been created successfully!")
